@@ -1,7 +1,9 @@
-package by.lesson17.homework;
+package by.tms.onl30.lesson17.homework;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.function.Consumer;
 import java.util.function.Function;
