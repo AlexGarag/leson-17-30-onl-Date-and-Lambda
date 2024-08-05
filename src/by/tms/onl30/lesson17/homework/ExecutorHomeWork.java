@@ -2,9 +2,7 @@ package by.tms.onl30.lesson17.homework;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -71,6 +69,8 @@ public class ExecutorHomeWork {
             String stringInput = scanner2.nextLine();
             String[] array2 = stringInput.split("");
             String[] newArray = new String[array2.length];
+//            List<String> charList = Arrays.asList(array2);
+//            Collections.reverse(charList);
             for (int i = 0; i < array2.length; i++) {
                 newArray[array2.length - 1 - i] = array2[i];
             }
